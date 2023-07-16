@@ -1,0 +1,33 @@
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.optionList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 400px;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.optionItem {
+  width: 90px;
+  height: 30px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: black;
+  background-color: aqua;
+  border-radius: 10px;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+.optionItem:hover,
+.optionItem:focus {
+  color: white;
+  background-color: blue;
+  border: 1px solid aqua;
+}
